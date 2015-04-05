@@ -93,7 +93,7 @@
 </header>
     <div class="article-content">
         
-        <h1 id="（转）Markdown——入门指南">（转）Markdown——入门指南</h1><p><strong>本文原作者为Te_Lee，本文<a href="http://www.jianshu.com/p/1e402922ee32/" target="_blank" rel="external">原文地址</a></strong></p>
+        <p><strong>本文原作者为Te_Lee，本文<a href="http://www.jianshu.com/p/1e402922ee32/" target="_blank" rel="external">原文地址</a></strong></p>
 <p><strong>转载请注明原作者，如果你觉得这篇文章对你有帮助或启发，也可以来请我<a href="http://ww2.sinaimg.cn/large/6aee7dbbjw1eiixgkex2ij21kw0t7wn5.jpg" target="_blank" rel="external">喝咖啡</a>。</strong></p>
 <h4 id="导语：">导语：</h4><blockquote>
 <p><a href="http://zh.wikipedia.org/wiki/Markdown" target="_blank" rel="external">Markdown</a> 是一种轻量级的<strong>「标记语言」</strong>，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被<strong>「标记」</strong>、<strong>「语言」</strong>所迷惑，Markdown 的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的 HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。<br><img src="http://ww3.sinaimg.cn/large/6aee7dbbgw1effia3l1xoj214z0n8dkl.jpg" alt=""></p>
@@ -156,8 +156,32 @@
 | col <span class="number">2</span> is      | centered      |   <span class="variable">$12</span> |
 | zebra stripes | are neat      |    <span class="variable">$1</span> |
 </code></pre><p>这种语法生成的表格如下：</p>
-<table><br><thead><br><tr><br><th>Tables</th><br><th>Are</th><br><th>Cool</th><br></tr><br></thead><br><tbody><br><tr><br><td>col 3 is</td><br><td>right-aligned</td><br><td>$1600</td><br></tr><br><tr><br><td>col 2 is</td><br><td>centered</td><br><td>$12</td><br></tr><br><tr><br><td>zebra stripes</td><br><td>are neat</td><br><td>$1</td><br></tr><br></tbody><br></table>
-
+<table>
+<thead>
+<tr>
+<th>Tables</th>
+<th style="text-align:center">Are</th>
+<th style="text-align:right">Cool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>col 3 is</td>
+<td style="text-align:center">right-aligned</td>
+<td style="text-align:right">$1600</td>
+</tr>
+<tr>
+<td>col 2 is</td>
+<td style="text-align:center">centered</td>
+<td style="text-align:right">$12</td>
+</tr>
+<tr>
+<td>zebra stripes</td>
+<td style="text-align:center">are neat</td>
+<td style="text-align:right">$1</td>
+</tr>
+</tbody>
+</table>
 <h3 id="代码框">代码框</h3><p>如果你是个程序猿，需要在文章里优雅的引用代码框，在 Markdown下实现也非常简单，只需要用两个 ` 把中间的代码包裹起来。图例：</p>
 <p><img src="http://ww3.sinaimg.cn/large/6aee7dbbgw1effg1lsa97j20lt0a8dgs.jpg" alt=""></p>
 <p>使用 <code>tab</code> 键即可缩进。</p>
